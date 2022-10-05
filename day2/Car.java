@@ -1,7 +1,7 @@
 package week1.day2;
 
 public class Car {
-	private static final boolean True = false;
+
 	public static void main(String[] args) {
 		Car obj = new Car();
 		obj.printCarName();
@@ -27,7 +27,7 @@ private int getRegNumber() {
 	return carColor;
 	}
 public boolean carIsPuntured() {
-	boolean carIsPuntured = True;
+	boolean carIsPuntured = true;
 	return carIsPuntured;
 	
 }
